@@ -6,6 +6,7 @@ public class AccountAutomations {
             return a;
         }
     }
+
     public static Account setDefaultBillingAddress(Account a){
         a.billingstreet = 'Basauri, 6'; 
         a.billingstate = 'Madrid'; 
@@ -24,6 +25,7 @@ public class AccountAutomations {
     }
     public static Account setDefaultURL(Account a) {
         a.website = 'www.copa.do'; 
+
         return a;
     }
 }
