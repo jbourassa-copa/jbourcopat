@@ -10457,7 +10457,15 @@
         <layout>OrderItem-Order Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Planet__c-Gas Giants</layout>
+        <recordType>Planet__c.Gas_Giants</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Planet__c-Planet Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Planet__c-Planet Layout</layout>
+        <recordType>Planet__c.Terrestrial_Planets</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Pricebook2-Price Book Layout</layout>
@@ -12976,6 +12984,17 @@
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
+        <recordType>Planet__c.Gas_Giants</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Planet__c.Terrestrial_Planets</recordType>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
